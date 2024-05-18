@@ -43,6 +43,8 @@
   }
 
 
+
+
 header{
 justify-content: space-between;
 display: flex;
@@ -83,13 +85,15 @@ text-decoration: none;
   justify-content: center;
   border-radius: 3px;
   margin-top: 45px;
+  margin-left: 0;
 }
 .cv{
   margin-left: 20px;
   color: #000;
 }
 .arrow{
-  margin-left: 20px;
+  margin-left: 5px;
+
   
 }
 .shirketler h5{
@@ -110,6 +114,75 @@ text-decoration: none;
 header nav{
   display: none;
 }
+.section{
+  text-align: center;
+  margin-top: 70px;
+}
+.section h5{
+  color:  #FF5E69;
+  ;
+}
+.card img{
+  width: 70px;
+}
+.services-cards{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(306px, 1fr)) ;
+ margin-top: 70px;
+
+}
+.projects h5 {
+  color:  #B16CEA;
+  margin-top: 100px;
+}
+.Wiew-all-projects{
+  background-color: #000;
+  color: white;
+  width: 151px;
+  height: 58px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  margin-top: 45px;
+  border: 0px;
+ 
+}
+.projects h1 {
+  display: flex;
+  
+}
+.projects a{
+ display: inline-flex;
+}
+.pictures{
+  margin-top: 70px;
+}
+.pictures-down h5{
+  margin-top: 35px;
+  color:  #3C46FF;
+}
+.pictures-down h3{
+  margin-top: 50px;
+  color: #000
+}
+.pictures-down p{
+  margin-top: 50px;
+  font-size: 18px;
+
+}
+.arrow-projects{
+  padding-left:  15px !important;
+}
+
+
+@media(min-width:320px) {
+  .services-services .section {
+    margin-left: 30px;
+  }
+  
+}
+
 @media(min-width:768px){
   .fa-bars{
     display: none !important;
@@ -136,11 +209,24 @@ header nav{
   display: flex;
 }
 
+.Wiew-all-projects{
+  margin-left: 1104px;
+  margin-right: 105px;
+  
+}
+
+
  
 }
 @media(min-width:992px){
 .introduction .intro-left-side h1{
   font-size: 4.5rem;
 }
+.services-cards{
+  margin-right: 100px;
+  margin-left: 171px;
 }
+
+}
+
 
